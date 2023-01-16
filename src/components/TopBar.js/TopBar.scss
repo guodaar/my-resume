@@ -1,0 +1,31 @@
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+
+  nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.9rem;
+    letter-spacing: 3px;
+
+    ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+
+      .nav-item {
+        cursor: pointer;
+        padding: 10px 10px;
+
+        li:hover {
+          border-bottom: 2px solid seagreen;
+          color: seagreen;
+        }
+      }
+    }
+  }
+}
