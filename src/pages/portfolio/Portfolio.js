@@ -13,9 +13,12 @@ const Portfolio = () => {
         <div className="projects-container">
           {projects.map((project) => (
             <PortfolioCard
+              key={project.id}
+              id={project.id}
               image={project.image}
               title={project.title}
               subtitle={project.subtitle}
+              toolsUsed={project.toolsUsed}
             />
           ))}
         </div>

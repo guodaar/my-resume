@@ -21,9 +21,31 @@
         cursor: pointer;
         padding: 10px 10px;
 
+        li {
+          display: inline-block;
+          position: relative;
+        }
+
+        li::after {
+          content: '';
+          position: absolute;
+          width: 98%;
+          transform: scaleX(0);
+          height: 2px;
+          bottom: -3px;
+          left: 0;
+          background-color: seagreen;
+          transform-origin: bottom right;
+          transition: transform 0.25s ease-out;
+        }
+
         li:hover {
-          border-bottom: 2px solid seagreen;
           color: seagreen;
+        }
+
+        li:hover::after {
+          transform: scaleX(1);
+          transform-origin: bottom left;
         }
       }
     }
