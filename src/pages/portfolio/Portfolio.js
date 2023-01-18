@@ -7,7 +7,7 @@ import PortfolioCard from "../../components/PortfolioCard/PortfolioCard";
 const Portfolio = () => {
   return (
     <div>
-      <TopBar />
+      <TopBar portfolio="active" />
       <main>
         <h2>My projects</h2>
         <div className="projects-container">

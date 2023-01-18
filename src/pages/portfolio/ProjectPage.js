@@ -15,8 +15,12 @@ const ProjectPage = () => {
 
   return (
     <div>
-      <TopBar />
+      <TopBar portfolio="active" />
       <div className="project-display">
+        <div className="go-back" onClick={() => handleClick()}>
+          <BsArrowLeft />
+          <p>Go back</p>
+        </div>
         <h2>{project.title}</h2>
         <div className="content-wrap">
           <div className="image-wrap">
@@ -25,7 +29,7 @@ const ProjectPage = () => {
             </figure>
           </div>
           <div className="info-wrap">
-            <p className="description">{project.description}</p>
+            <h3>{project.subtitle}</h3>
             <ul className="tool-list">
               {toolsUsed.map((tool) => (
                 <li className="tool" key={tool}>
@@ -33,12 +37,9 @@ const ProjectPage = () => {
                 </li>
               ))}
             </ul>
+            <p className="description">{project.description}</p>
           </div>
         </div>
-      </div>
-      <div className="go-back" onClick={() => handleClick()}>
-        <BsArrowLeft />
-        <p>Go back</p>
       </div>
     </div>
   );

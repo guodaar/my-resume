@@ -4,7 +4,7 @@ import TopBar from "../../components/TopBar.js/TopBar";
 const Home = () => {
   return (
     <div>
-      <TopBar />
+      <TopBar home="active" />
     </div>
   );
 };

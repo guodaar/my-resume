@@ -4,7 +4,7 @@ import TopBar from "../../components/TopBar.js/TopBar";
 const Contact = () => {
   return (
     <div>
-      <TopBar />
+      <TopBar contact="active" />
     </div>
   );
 };

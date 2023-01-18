@@ -2,25 +2,38 @@ import React from "react";
 import "./TopBar.scss";
 import { useNavigate } from "react-router-dom";
 import CustomButton from "../CustomButton/CustomButton";
+import logo from "../../assets/logo-no-background.png";
 
-const TopBar = () => {
+const TopBar = ({ home, about, portfolio, contact }) => {
   const navigate = useNavigate();
 
   return (
     <div className="top-bar">
-      <h1>My logo</h1>
+      <img className="site-logo" src={logo} alt="Site logo"></img>
       <nav>
         <ul>
-          <div className="nav-item" onClick={() => navigate("/")}>
+          <div className="nav-item" id={home} onClick={() => navigate("/")}>
             <li>Home</li>
           </div>
-          <div className="nav-item" onClick={() => navigate("/about")}>
+          <div
+            className="nav-item"
+            id={about}
+            onClick={() => navigate("/about")}
+          >
             <li>About</li>
           </div>
-          <div className="nav-item" onClick={() => navigate("/portfolio")}>
+          <div
+            className="nav-item"
+            id={portfolio}
+            onClick={() => navigate("/portfolio")}
+          >
             <li>Portfolio</li>
           </div>
-          <div className="nav-item" onClick={() => navigate("/contact")}>
+          <div
+            className="nav-item"
+            id={contact}
+            onClick={() => navigate("/contact")}
+          >
             <li>Contact</li>
           </div>
           <div className="contact-now" onClick={() => navigate("/contact")}>
