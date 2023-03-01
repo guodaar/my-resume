@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/my-resume/static/css/main.170a5ab7.css",
+    "main.js": "/my-resume/static/js/main.2018a8b4.js",
+    "static/js/787.1d5e114e.chunk.js": "/my-resume/static/js/787.1d5e114e.chunk.js",
+    "static/media/batas1.jpg": "/my-resume/static/media/batas1.bc42697c6bbe126b1173.jpg",
+    "static/media/sandstone-hotel.png": "/my-resume/static/media/sandstone-hotel.73cb8684307590c5ee30.png",
+    "static/media/logo-no-background.png": "/my-resume/static/media/logo-no-background.c0b4533eb57978ded02c.png",
+    "index.html": "/my-resume/index.html",
+    "main.170a5ab7.css.map": "/my-resume/static/css/main.170a5ab7.css.map",
+    "main.2018a8b4.js.map": "/my-resume/static/js/main.2018a8b4.js.map",
+    "787.1d5e114e.chunk.js.map": "/my-resume/static/js/787.1d5e114e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.170a5ab7.css",
+    "static/js/main.2018a8b4.js"
+  ]
+}
