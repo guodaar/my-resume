@@ -1,7 +1,7 @@
 import React from "react";
 import "./projectPage.scss";
 import { useParams } from "react-router-dom";
-import TopBar from "../../components/TopBar.js/TopBar";
+import TopBar from "../../components/TopBar/TopBar";
 import { getProjectById } from "../../utils/getProject";
 import { BsArrowLeft } from "react-icons/bs";
 import { useNavigate } from "react-router-dom";

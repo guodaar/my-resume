@@ -1,6 +1,6 @@
 import React from "react";
 import "./portfolio.scss";
-import TopBar from "../../components/TopBar.js/TopBar";
+import TopBar from "../../components/TopBar/TopBar";
 import { projects } from "../../const/projects";
 import PortfolioCard from "../../components/PortfolioCard/PortfolioCard";
 

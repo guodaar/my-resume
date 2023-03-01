@@ -1,5 +1,4 @@
-import React from "react";
-import TopBar from "../../components/TopBar.js/TopBar";
+import TopBar from "../../components/TopBar/TopBar";
 
 const Home = () => {
   return (
